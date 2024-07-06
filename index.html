@@ -4,21 +4,143 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Masai News</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(174, 243, 243);
+      }
+      .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-top: 50px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .middle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+      .boxes {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 200px;
+        background-color: white;
+        padding: 30px;
+        margin-left: 30px;
+        height: 350px;
+      }
+      .boxes img {
+        width: 150px;
+        background-color: white;
+      }
+      .boxes p {
+        background-color: white;
+        height: 200px;
+        height: 45px;
+      }
+      .boxes h2 {
+        background-color: white;
+        height: 200px;
+      }
+      .see-more {
+        color: red;
+        border: 1px solid red;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .lower-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-top: 20px;
+      }
+      .logo-container {
+        display: flex;
+      }
+      .logo-box {
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .logo-box img {
+        width: 200px;
+        height: 150px;
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
     <div class="main-container">
       <h1>Masai In The News</h1>
       <div class="middle-container">
-        <div class="boxes"></div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
+        <div class="boxes">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Economic_Times_logo.svg/2560px-The_Economic_Times_logo.svg.png"
+            alt=""
+          />
+          <p>21 Dec 2021</p>
+          <h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur ad</p>
+        </div>
+        <div class="boxes">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjfzCWRqJtuO2APx_KAtk9705ZopVLE4pUQ&s"
+            alt=""
+          />
+          <p>21 Dec 2021</p>
+          <h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae nisi
+          </h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="boxes">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVefoUHuR-gu4ZT87dDArGF0BE_aX136hEQ&s"
+            alt=""
+          />
+          <p>21 Dec 2021</p>
+          <h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adip</p>
+        </div>
       </div>
-      <button class="see-more"></button>
+      <button class="see-more">See More</button>
       <div class="lower-box">
         <h1>Our Investores, Who Believe In Us</h1>
-        <div class="logo-box"></div>
-        <div class="logo-box"></div>
-        <div class="logo-box"></div>
+        <div class="logo-container">
+          <div class="logo-box">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Unitus_Logo.png"
+              alt=""
+            />
+          </div>
+          <div class="logo-box">
+            <img
+              src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-12/12/full/1702366853-1383.jpg?im=FitAndFill=(826,465)"
+              alt=""
+            />
+          </div>
+          <div class="logo-box">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0byMKrH4En6CO2c15oY_zkALZrIuTAzHG2w&s"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>
